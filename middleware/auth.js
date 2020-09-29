@@ -1,5 +1,3 @@
-const { JsonWebTokenError } = require("jsonwebtoken");
-
 const jwt = require("jsonwebtoken");
 const config = require("config");
 
