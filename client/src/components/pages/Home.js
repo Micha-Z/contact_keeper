@@ -1,5 +1,6 @@
 import React from "react";
 import Contacts from "../contacts/Contacts";
+import ContactForm from "../contacts/ContactForm";
 
 const grids = {
   display: "grid",
@@ -10,7 +11,9 @@ const grids = {
 const Home = () => {
   return (
     <div style={grids}>
-      <div>{/* {ContactForm} */}</div>
+      <div>
+        <ContactForm />
+      </div>
       <div>
         <Contacts />
       </div>
